@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+}
+
+#main {
+    background: url("../images/background/bg.png") no-repeat top center;
+}
+
+h1 {
+    background: url("../images/background/logo.png") no-repeat top left;
+    margin: 2% 0 2% 2%;
+    text-indent: -100%;
+    height: 100px;
+}
+
+#a,
+#b,
+#c {
+    border: 2px solid white;
+    margin-top: 1%;
+    width: 5%;
+    margin-left: 80%;
+    display: inline-block;
+}
+
+#mySidenav ul {
+    list-style: none;
+}
+
+#mySidenav ul li {
+    border-bottom: 1px solid grey;
+}
+
+#blog li {
+    border-bottom: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10%;
+    margin-right: -3%;
+}
+
+.sidenav a {
+    padding: 3% 3% 3% 10%;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25%;
+    font-size: 3rem;
+    margin-left: 5%;
+}
+
+#first_post {
+    margin-top: 10%;
+    height: 500px;
+    background: url("../images/background/post.png") no-repeat center;
+}
+
+#first_post h2 {
+    font-family: Myriad Pro;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: white;
+    margin-left: 2%;
+}
+
+#first_post p {
+    font-family: Myriad Pro;
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+    width: 40%;
+    margin: 2% 0 0 2%;
+}
+
+#mid {
+    margin-top: 3%;
+}
+
+#one {
+    height: 250px;
+    background: url("../images/background/img1.png") no-repeat;
+}
+
+.text {
+    font-family: Myriad Pro;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: white;
+    margin: 2% 2% 0 2%;
+}
+
+#two {
+    height: 250px;
+    background: url("../images/background/img2.png") no-repeat;
+}
+
+#two h3 {
+    margin-left: 10%;
+}
+
+#three {
+    height: 250px;
+    background: url("../images/background/img3.png") no-repeat;
+}
+
+#three .blockquote {
+    margin-top: 4%;
+}
+
+#three h3 {
+    font-family: Myriad Pro;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: white;
+    margin-top: 42%;
+}
+
+#four {
+    height: 250px;
+    background: url("../images/background/img4.png") no-repeat;
+}
+
+#five {
+    height: 250px;
+    background: url("../images/background/img5.png") no-repeat;
+}
+
+#five h3 {
+    font-family: Myriad Pro;
+    font-size: 2.2rem;
+    font-weight: normal;
+    color: white;
+}
+
+#five h4 {
+    font-family: Myriad Pro;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #dcdcdc;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url("../images/background/img9.png") no-repeat;
+}
+
+#five:hover .overlay {
+    opacity: 1;
+}
+
+#auth {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#six {
+    display: block;
+    height: 250px;
+    background: url("../images/background/img6.png") no-repeat;
+}
+
+#seven {
+    height: 250px;
+    background: url("../images/background/img7.png") no-repeat;
+}
+
+#eight {
+    height: 250px;
+    background: url("../images/background/img8.png") no-repeat;
+}
+
+#nine {
+    height: 250px;
+    background: url("../images/background/img9.png") no-repeat;
+}
+
+.pagination {
+    margin-left: 50%;
+}
+
+.pagination li a {
+    background-color: black;
+    color: white;
+}
+
+.pagination li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+#footer1 {
+    display: inline-block;
+    float: left;
+}
+
+#footer1 h2 {
+    font-family: Myriad Pro;
+    font-size: 3.5rem;
+    font-weight: normal;
+    color: #d38244;
+}
+
+#footer2 {
+    display: inline-block;
+    float: right;
+}
+
+#footer2 ul {
+    list-style: none;
+    margin-left: 30%;
+}
+
+#footer2 ul li {
+    padding: 3% 3%;
+    display: inline-block;
+}
+
+#footer2 ul li h3 {
+    font-family: Myriad Pro;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #d38244;
+}
+
+.socicon-facebook,
+.socicon-twitter,
+.socicon-dribbble,
+.socicon-googleplus {
+    text-decoration: none;
+    color: white;
+    padding: 5%;
+    border-radius: 50%;
+    background-color: transparent;
+}

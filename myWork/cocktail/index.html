@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cocktail</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/cocktail.css" rel="stylesheet">
+    </head>
+    <body>
+        <main id="main" class="container-fluid">
+            <header>
+                <section>
+                    <div class="col-md-6" id="logo">
+                        <h1>logo</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="mySidenav" class="sidenav col-md-6">
+                            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Blogs</a></li>
+                                <li>
+                                    <a href="#">Latest News</a>
+                                    <ul id="blog">
+                                        <li><a href="#">Announcements</a></li>
+                                        <li><a href="#">Blog Posts</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div  onclick="openNav()">
+                            <div id="a"></div>
+                            <div id="b"></div>
+                            <div id="c"></div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <section id="first_post" class="container">
+                <h2>Thats the first post, the bigger the better</h2>
+                <p>Praesent sapien taciti placerat convallis dapibus torquent massa accumsan, etiam rhoncus sodales sapien consequat luctus quis, nam erat nisl amet quisque aliquam curabitur erat nam faucibus fringilla dapibus cursus venenatis suspendisse sollicitudin consectetur himenaeos placerat viverra leo.</p>
+            </section>
+            <section id="mid" class="container">
+                <div id="one" class="col-md-4">
+                    <h3 class="text">An awesome blog post</h3>
+                </div>
+                <div id="two" class="col-md-4">
+                    <h3 class="text">Some hot summer day</h3>
+                </div>
+                <div id="three" class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="text">When a man opens a car door for his wife, it's either a new car or a new wife.</p>
+                        <h3 class="text">Some Guy</h3>
+                    </blockquote>
+                </div>
+                <div id="four" class="col-md-4">
+                    <h3 class="text">My favorite song this time of year</h3>
+                    <video width="320" height="200" controls>
+                        <source src="resources/song.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="five" class="col-md-4">
+                    <h3>These drings are on me dude!</h3>
+                    <h4>Mark James, 13 Mar 2014</h4>
+                    <div class="overlay">
+                        <p id="auth">Author: John James, Date: 21 Jan 2016, Comment: Good thought </p>
+                    </div>
+                </div>
+                <div id="six" class="col-md-4">
+                    <p class="text">This could be a post with a really stupid big and fat title thats not normal</p>
+                </div>
+                <div id="seven" class="col-md-4">
+                    <p class="text">Getting some drings on the road</p>
+                    <h3 class="text"> Some Guy</h3>
+                </div>
+                <div id="eight" class="col-md-4">
+                    <p class="text"> I always wanted to be somebody, but now I realize I should have been more specific.</p>
+                </div>
+                <div id="nine" class="col-md-4">
+                    <p class="text">When in need of a refresher</p>
+                </div>
+            </section>
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <section id="footer1" class="col-md-6">
+                    <h2>Honest Weight</h2>
+                </section>
+                <section id="footer2" class="col-md-6">
+                    <ul>
+                        <li>
+                            <h3>Share the love</h3>
+                        </li>
+                        <li><a href="#" class="socicon-twitter"></a></li>
+                        <li><a href="#" class="socicon-dribbble"></a></li>
+                        <li><a href="#" class="socicon-facebook"></a></li>
+                        <li><a href="#" class="socicon-googleplus"></a></li>
+                    </ul>
+                </section>
+            </footer>
+        </main>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "230px";
+            }
+            
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0px";
+            }
+        </script>
+    </body>
+</html>

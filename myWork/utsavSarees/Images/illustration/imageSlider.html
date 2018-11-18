@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	*{margin:0 auto; padding: 0; border: 0;}
+
+	#trending{height:695px;width:1170px;}
+	
+	#trendcollection ul{display:inline-block;height:558px;width:1170px;}
+
+	#trendcollection ul li{margin-left:13px;margin-right:13px;height:558px;width:360px;list-style:none;display:inline-block;}
+	
+	#trendcollection ul li h2{display:inline-block;color:#b31b1b;font-size:20px;font-weight:normal;}	
+
+	#trendcollection ul li p{display:inline-block;}
+
+	#leftarrow, #rightarrow{margin-top:235px;width:41px;height:50px;position:absolute;}
+
+	#leftarrow a{display:inline-block;width:41px;height:50px;}
+
+	#rightarrow a{display:inline-block;width:41px;height:50px;}	
+
+	#leftarrow{background:url(arrow-left.png) no-repeat;}
+
+	#leftarrow:hover{cursor:pointer;}
+
+	#rightarrow:hover{cursor:pointer;}	
+
+	#rightarrow{background:url(arrow-right.png) no-repeat;margin-left:1120px;}		
+
+	#lowcol{float:right;display:inline-block;height:24px;width:200px;}
+
+	#lowcol img{float:right;margin-right:4px;}	
+
+	</style>
+</head>
+
+<body onLoad="showSlides(1)">
+
+<div id="trending">
+    <div id="leftarrow" onclick="plusSlides(1)"></div>
+    <div id="rightarrow" onclick="plusSlides(-1)"></div>
+    
+    <div id="trendcollection" class="trends" class="opentrend">
+    	<ul>
+        	<li><img src="trend1.png">
+            	<h2>Janasya Womens Silk Saree 1</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend2.png">
+            	<h2>Janasya Womens Silk Saree 2</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend3.png">
+            	<h2>Janasya Womens Silk Saree 3</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="trendcollection" class="trends">
+    	<ul>
+        	<li><img src="trend2.png">
+            	<h2>Janasya Womens Silk Saree 2</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend3.png">
+            	<h2>Janasya Womens Silk Saree 3</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend1.png">
+            	<h2>Janasya Womens Silk Saree 1</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="trendcollection" class="trends">
+    	<ul>
+        	<li><img src="trend3.png">
+            	<h2>Janasya Womens Silk Saree 3</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend1.png">
+            	<h2>Janasya Womens Silk Saree 1</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+            <li><img src="trend2.png">
+            	<h2>Janasya Womens Silk Saree 2</h2><br>
+                <p>Rs 2500</p>
+                <div id="lowcol">
+                <img src="stars.png">
+                <img src="bag.png">
+                <img src="fav.png">
+                </div>
+            </li>
+        </ul>
+    </div>
+	
+</div>   
+
+<script>
+	var Index = 1;
+	showSlides(Index);
+
+	function plusSlides(n){
+  		showSlides(Index += n);
+	}
+
+	function currentSlide(n){
+  		showSlides(Index = n);
+	}
+
+	function showSlides(n){
+  		var i;
+  		var slides = document.getElementsByClassName("trends");
+  		if (n > slides.length) {Index = 1}    
+  		if (n < 1) {Index = slides.length}
+  		for (i = 0; i < slides.length; i++){
+      		slides[i].style.display = "none";  
+  		}
+ 		slides[Index-1].style.display = "block";  
+	}
+</script>
+
+
+
+</body>
+</html>

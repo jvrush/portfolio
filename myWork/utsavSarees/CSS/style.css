@@ -1,0 +1,482 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    background: url("../images/background/background.png");
+}
+
+#top {
+    height: 40px;
+    background: url("../images/background/bg.png");
+}
+
+#left {
+    margin-left: 2%;
+    float: left;
+    width: 40%;
+}
+
+#left h3 {
+    background: url("../images/background/phone.png") no-repeat left;
+    font-weight: normal;
+    color: #f2f2f2;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    padding-left: 3%;
+    display: inline-block;
+    margin: 2% 0;
+    border-right: 1px solid white;
+    padding-right: 1%;
+}
+
+#left h4 {
+    background: url("../images/background/envelope.png") no-repeat left;
+    font-weight: normal;
+    color: #f2f2f2;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    padding-left: 4%;
+    display: inline-block;
+}
+
+#right {
+    float: right;
+    width: 30%;
+    margin-left: 7%;
+}
+
+#right ul {
+    list-style: none;
+}
+
+#right ul li {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+#right ul li a {
+    text-decoration: none;
+}
+
+#wishlist {
+    margin-left: 65%;
+    width: 30%;
+    margin-top: 1%;
+}
+
+#wishlist h3 {
+    background: url("../images/background/heart.png") no-repeat left;
+    font-weight: normal;
+    color: #b31b1b;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    padding-left: 7%;
+    display: inline-block;
+}
+
+#wishlist h4 {
+    margin-left: 2%;
+    background: url("../images/background/bag1.png") no-repeat left;
+    font-weight: normal;
+    color: #b31b1b;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    padding-left: 7%;
+    display: inline-block;
+}
+
+#left1 {
+    float: left;
+    display: inline-block;
+    width: 35%;
+}
+
+#left1 ul {
+    margin-top: -5%;
+    list-style: none;
+}
+
+#left1 ul li {
+    padding-left: 1%;
+    display: inline-block;
+    padding: 60px 18px;
+}
+
+#left1 ul li a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #b79322;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+}
+
+#left1 ul li:hover {
+    background: url("../images/background/Untitled-10.png") no-repeat top center;
+}
+
+#left1 ul li a:hover {
+    color: white;
+}
+
+h1 {
+    margin-left: 3%;
+    width: 20%;
+    display: inline-block;
+    text-indent: -100%;
+    background: url("../images/background/Untitled-11.png") no-repeat center;
+    height: 80px;
+}
+
+#right1 {
+    float: right;
+    width: 40%;
+}
+
+#right1 input[type="search"] {
+    margin-top: 3%;
+    background: url("../images/background/search.png") left no-repeat;
+    background-color: #d0b66a;
+    color: #94771b;
+    padding: 1.5% 4%;
+    outline: none;
+    float: left;
+}
+
+.search::placeholder {
+    color: #94771b;
+    padding-left: 4%;
+    font-family: Myriad Pro;
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+#right1 ul {
+    margin-top: 4%;
+    list-style: none;
+}
+
+#right1 ul li {
+    display: inline-block;
+    padding-left: 2%;
+    border-right: 1px solid #b99422;
+    padding-right: 1.5%;
+}
+
+#right1 ul li:last-child {
+    border-right: none;
+}
+
+#right1 ul li a {
+    text-decoration: none;
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #b99422;
+    padding-right: 2%;
+}
+
+#main {
+    background-size: 100% 100%;
+    height: 700px;
+    background: url("../images/background/tammana.png") no-repeat;
+}
+
+#main h3 {
+    font-family: Myriad Pro;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 20%;
+}
+
+#main input[type="button"] {
+    background: #b31b1b url("../images/background/design1.png") no-repeat left;
+    padding: 1% 2%;
+    margin-left: 63%;
+    margin-top: 3%;
+    font-family: Myriad Pro;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #fff;
+    outline: none;
+}
+
+#sale {
+    text-align: center;
+}
+
+#sale ul {
+    list-style: none;
+}
+
+#sale ul li {
+    display: inline-block;
+    padding-left: 3%;
+}
+
+#slider {
+    margin-top: 1%;
+}
+
+#one,
+#occ {
+    margin: 0 3%;
+}
+
+.trendcoll ul {
+    margin-top: 2%;
+    list-style: none;
+}
+
+.trendcoll ul li:first-child {
+    padding-left: 6%;
+}
+
+.trendcoll ul li {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+.trendcoll ul li h3 {
+    font-family: Myriad Pro;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #b31b1b;
+    text-align: center;
+}
+
+.trendcoll ul li h4 {
+    font-family: Myriad Pro;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: black;
+    display: inline-block;
+}
+
+#leftarrow {
+    margin-top: 20%;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background: url("../images/background/arrow-left.png") no-repeat;
+    margin-left: 5%;
+}
+
+#rightarrow {
+    margin-top: 20%;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background: url("../images/background/arrow-right.png") no-repeat;
+    margin-left: 87%;
+}
+
+#leftarrow:hover,
+#rightarrow:hover {
+    cursor: pointer;
+}
+
+.one {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.two,
+.three {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#occasion {
+    margin-top: 2%;
+}
+
+#occasion ul {
+    list-style: none;
+    margin-top: 3%;
+}
+
+#occasion ul li {
+    display: inline-block;
+    padding-left: 2%;
+}
+
+#occasion ul li:first-child {
+    padding-left: 4%;
+}
+
+#occasion ul li h3 {
+    font-family: Myriad Pro;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #b31b1b;
+    padding-top: 2%;
+}
+
+#mail {
+    margin-top: 3%;
+    background: url("../images/background/bg.png") no-repeat center;
+    height: 300px;
+}
+
+#mail h3 {
+    background: url("../images/background/design1.png") no-repeat center;
+    height: 100px;
+    text-align: center;
+    padding-top: 6%;
+    font-family: Myriad Pro;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: white;
+}
+
+#mail input[type="email"] {
+    border: 1px solid white;
+    background-color: #b31b1b;
+    padding: 1% 15%;
+    margin-left: 30%;
+    margin-top: -3%;
+    outline: none;
+    text-align: left;
+}
+
+#sign::placeholder {
+    font-family: Myriad Pro;
+    font-size: .8rem;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    background-color: #b31b1b;
+}
+
+#mail input[type="button"] {
+    padding: 1% 1.5%;
+    margin-left: -.3%;
+    outline: none;
+    background-color: #b31b1b;
+    border: 1px solid white;
+    font-family: Myriad Pro;
+    font-size: .8rem;
+    font-weight: normal;
+    color: white;
+}
+
+#money {
+    margin-top: -2%;
+}
+
+#money ul {
+    list-style: none;
+}
+
+#money ul li {
+    display: inline-block;
+    padding-left: 3%;
+    border-right: 1px solid #cccccc;
+    width: 30%;
+}
+
+#money ul li:last-child {
+    border-right: none;
+}
+
+.mon1 {
+    display: inline-block;
+}
+
+.mon1 h3 {
+    font-family: Myriad Pro;
+    font-size: .8rem;
+    font-weight: normal;
+    color: #b31b1b;
+}
+
+.mon1 h4 {
+    font-family: Myriad Pro;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #b31b1b;
+}
+
+.mon1 p {
+    font-family: Myriad Pro;
+    font-size: .9rem;
+    font-weight: normal;
+    color: #280000;
+}
+
+.mon2 {
+    display: inline-block;
+    margin-left: 13%;
+    padding-top: 4%;
+}
+
+#footer1 {
+    margin-top: 1%;
+    height: 90px;
+    background-color: black;
+}
+
+#left2 {
+    margin-top: 1%;
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+}
+
+#left2 h3,
+#right2 h3 {
+    font-family: Myriad Pro;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+}
+
+#left2 ul {
+    list-style: none;
+}
+
+#left2 ul li {
+    display: inline-block;
+    padding: 3% 0 0 2%;
+}
+
+#left2 ul li a {
+    text-decoration: none;
+    color: #ddb536;
+    font-family: Myriad Pro;
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+#left2 ul li::before {
+    content: "\2022";
+    color: white;
+}
+
+#right2 {
+    margin-top: 1%;
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+
+#right2 img {
+    padding-top: 3%;
+}
+
+#footer2 {
+    text-align: center;
+    color: black;
+    font-family: Arial;
+    font-size: .9rem;
+    font-weight: normal;
+    padding-top: 1%;
+}

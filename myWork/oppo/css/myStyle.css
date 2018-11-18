@@ -1,0 +1,477 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	border: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+header {
+	width: 100%;
+	height: 30%;
+}
+
+header #top {
+	display: none;
+}
+
+h1 {
+	width: 60%;
+	height: 10%;
+	text-indent: -100%;
+	background: url(../images/background/logo.png) no-repeat center;
+	background-size: 30% 60%;
+	margin: 2% 3%;
+	display: inline-block;
+	float: right;
+}
+
+button {
+	width: 20%;
+	height: 30%;
+	padding-top: 1%;
+	margin: 2% 3%;
+	display: inline-block;
+	float: left;
+	background-color: white;
+}
+
+#twolines {
+	width: 20%;
+	height: 5%;
+	border-top: 3px solid green;
+	border-bottom: 3px solid green;
+	padding-top: 5%;
+}
+
+#menu {
+	display: none;
+}
+
+#slider {
+	width: 100%;
+}
+
+#images {
+	margin: auto;
+	width: 100%;
+}
+
+#mobile_list {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+#mobile_list ul {
+	margin-top: 4%;
+	list-style: none;
+	text-align: center;
+}
+
+#mobile_list ul li {
+	padding: 5% 2%;
+	display: inline-block;
+}
+
+#mobile_list ul li h2 {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1.2rem;
+	color: black;
+	margin-bottom: 2%;
+}
+
+#mobile_list a {
+	margin-top: 3%;
+	padding: 3% 20%;
+	text-decoration: none;
+	background-color: #2aad6f;
+	font-family: Arial;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.explore {
+	display: none;
+}
+
+#Support,
+#one,
+#two {
+	display: none;
+}
+
+#info {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#info ul li h3 {
+	font-family: Arial;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #009b72;
+	padding-top: 3%;
+}
+
+#info ul li {
+	display: none;
+}
+
+#social {
+	margin-top: 5%;
+	text-align: center;
+}
+
+#social ul {
+	list-style: none;
+}
+
+#social ul li {
+	display: inline-block;
+	padding: 2% 2%;
+}
+
+#social ul li h3 {
+	display: none;
+}
+
+#social ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.socicon-facebook,
+.socicon-instagram,
+.socicon-twitter,
+.socicon-youtube {
+	background-color: #009b72;
+	padding: 30%;
+}
+
+footer {
+	margin-top: 5%;
+	text-align: center;
+}
+
+footer #p1 {
+	font-family: Arial;
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: #000000;
+}
+
+footer #p2 {
+	font-family: Arial;
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: #000000;
+}
+
+footer #p2 span {
+	color: #27ae6f;
+}
+
+@media only screen and (min-width: 481px) {
+	#slider {
+		text-align: center;
+		width: 100%;
+	}
+	#images {
+		margin: auto;
+		width: 50%;
+	}
+	#mobile_list ul li {
+		padding: 5% 0;
+	}
+	#Support {
+		width: 60%;
+		height: auto;
+		text-align: center;
+		display: block;
+		margin-top: 10%;
+	}
+	#one {
+		width: 50%;
+		height: 286px;
+		background: url(../images/background/support.jpg) no-repeat left center;
+		display: inline-block;
+		float: left;
+		text-align: center;
+	}
+	#two {
+		width: 50%;
+		height: 286px;
+		background-size: 80%;
+		background: url(../images/background/innovation.jpg) no-repeat left center;
+		display: inline-block;
+		float: left;
+		text-align: center;
+	}
+	#one h2,
+	#two h2 {
+		display: block;
+		padding-top: 30%;
+		font-family: Arial;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: #fff;
+	}
+	#one img,
+	#two img {
+		display: block;
+		margin: 0 auto;
+	}
+	#info ul {
+		list-style: none;
+	}
+	#info ul li {
+		display: inline-block;
+		width: 30%;
+	}
+	#info ul li p {
+		font-family: Arial;
+		font-size: .8rem;
+		font-weight: normal;
+		color: #000;
+		padding-top: 3%;
+	}
+	#info ul li h3 {
+		margin-top: 5%;
+		font-size: 1.2rem;
+	}
+	footer {
+		width: 100%;
+		display: inline-block;
+	}
+	footer #p1 {
+		font-size: 1rem;
+		float: left;
+	}
+	footer #p2 {
+		padding: 0;
+		font-size: 1rem;
+		float: left;
+	}
+	footer #p2 span {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	header #top {
+		list-style: none;
+		width: 100%;
+		background-color: #009b72;
+		display: inline-block;
+		float: right;
+	}
+	header #top ul {
+		width: 10%;
+		float: right;
+		margin-right: 3%;
+	}
+	header #top ul li {
+		display: inline-block;
+		border-right: 1px solid white;
+		margin-right: 2%;
+		padding-right: 2%;
+	}
+	header #top li:last-child {
+		border-right: none;
+	}
+	header #top li a {
+		text-decoration: none;
+		font-family: Arial;
+		font-size: .8rem;
+		font-weight: normal;
+		color: #fff;
+	}
+	button {
+		display: none;
+	}
+	h1 {
+		width: 20%;
+		height: 10%;
+		text-indent: -100%;
+		background: url(../images/background/logo.png) no-repeat center;
+		background-size: 30% 60%;
+		display: inline-block;
+		float: left;
+	}
+	#menu {
+		width: 70%;
+		display: inline-block;
+	}
+	#menu ul {
+		width: 50%;
+		margin-top: 3%;
+		list-style: none;
+		float: right;
+	}
+	#menu ul li {
+		display: inline-block;
+		padding-right: 1%;
+	}
+	#menu ul li a {
+		text-decoration: none;
+		font-family: Arial;
+		font-size: .8rem;
+		font-weight: normal;
+		color: #000;
+		background-color: transparent;
+	}
+	#slider {
+		margin: 0 15%;
+		width: 70%;
+	}
+	#images {
+		margin: 2% 8%;
+		width: 85%;
+		height: auto;
+		display: inline-block;
+		float: left;
+	}
+	#mobile_list ul {
+		width: 70%;
+		float: left;
+	}
+	#mobile_list ul li {
+		display: inline-block;
+	}
+	#device {
+		margin-top: 7%;
+		display: inline-block;
+		width: 15%;
+		height: 250px;
+		background: url(../images/background/device.jpg) no-repeat;
+		float: right;
+		margin-right: 10%;
+	}
+	#device a {
+		padding: 3% 12%;
+		text-decoration: none;
+		background-color: #2aad6f;
+		font-family: Arial;
+		font-size: 1rem;
+		font-weight: bold;
+		color: #ffffff;
+		position: relative;
+		top: 85%;
+	}
+	.explore {
+		width: 90%;
+		text-align: center;
+		display: inline-block;
+	}
+	#first {
+		margin-top: 10%;
+		width: 30%;
+		display: inline-block;
+		float: left;
+	}
+	#first h2,
+	#second h2 {
+		font-family: Arial;
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: #009b72;
+		padding-bottom: 3%;
+	}
+	#first p,
+	#second p {
+		font-family: Arial;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: #000;
+		padding-bottom: 3%;
+	}
+	#first #youtube {
+		margin-top: 3%;
+		width: 70%;
+		height: 250px;
+		background: black url(../images/background/maxresdefault.jpg) no-repeat center;
+		background-size: 100% 80%;
+	}
+	#youtube img {
+		margin-top: 50%;
+	}
+	#youtube h4 {
+		margin: 20% 0 0 40%;
+		font-family: Arial;
+		font-size: 1.3rem;
+		font-weight: bold;
+		color: #fff;
+	}
+	#second {
+		margin-top: 10%;
+		width: 30%;
+		display: inline-block;
+	}
+	#second ul {
+		list-style: none;
+	}
+	#second ul li {
+		width: 80%;
+		display: inline-block;
+		margin-bottom: 2%;
+		border-bottom: 1px solid grey;
+	}
+	#second ul li img {
+		width: 10%;
+		display: inline-block;
+	}
+	#second ul li p {
+		width: 70%;
+		font-family: Arial;
+		font-size: 1rem;
+		font-weight: bold;
+		color: #000;
+		display: inline-block;
+		line-height: 20px;
+	}
+	#third {
+		margin-top: 10%;
+		width: 30%;
+		display: inline-block;
+		float: right;
+	}
+	#third img {
+		display: inline-block;
+	}
+	#third h3 {
+		font-family: Arial;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: #000;
+		padding-bottom: 3%;
+		display: inline-block;
+	}
+	#third #bg {
+		width: 70%;
+		height: 320px;
+		background: url("../images/background/Celes-OPPO.jpg") no-repeat;
+	}
+	#bg img {
+		margin-top: 50%;
+	}
+	#Support {
+		width: 50%;
+	}
+	#social ul li h3 {
+		display: inline-block;
+		font-family: Arial;
+		font-size: 1.2rem;
+		font-weight: normal;
+		color: #000;
+	}
+}

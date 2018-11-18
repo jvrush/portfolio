@@ -1,0 +1,793 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 15px;
+}
+
+button {
+  width: 10%;
+  background-color: black;
+  position: relative;
+  left: 50%;
+  margin: 1% 2%;
+}
+
+#twolines {
+  width: 30%;
+  height: 7px;
+  border-top: .2rem solid grey;
+  border-bottom: .2rem solid grey;
+  padding-bottom: 4%;
+  margin-bottom: 9%;
+  margin-top: 9%;
+}
+
+#menu {
+  display: none;
+}
+
+#banner {
+  margin-top: 3%;
+  width: 100%;
+  height: 200px;
+  background: url("../images/background/banner_mob.png") no-repeat;
+}
+
+#photo {
+  width: 100%;
+  text-align: center;
+  background-color: #666666;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#photo img {
+  padding-top: 10%;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#photo strong {
+  margin-top: 6%;
+  font-family: Calibri;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #f8e9e9;
+}
+
+#photo h4,
+#info h3 {
+  padding-top: 4%;
+  font-family: Calibri;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #f9f0f0;
+}
+
+#photo hr {
+  margin-top: 1%;
+  width: 70%;
+  height: 5px;
+  background-color: #f9f1f1;
+}
+
+#info {
+  height: 800px;
+  background-color: #0c0a0a;
+  text-align: center;
+}
+
+#info hr {
+  margin-top: 4%;
+  background-color: #898989;
+  height: 2px;
+  width: 60%;
+}
+
+#info p {
+  padding-top: 4%;
+  width: 80%;
+  color: #fff;
+  font-family: Calibri;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+#info a {
+  width: 70%;
+  margin-top: 5%;
+  display: block;
+  text-decoration: none;
+  border: 2px solid #fff;
+  background-color: #009999;
+  padding: 6% 5%;
+  color: #fff;
+  font-family: Calibri;
+  font-size: 1.6rem;
+  font-weight: normal;
+  border-radius: 3%;
+}
+
+#grey {
+  display: none;
+}
+
+#intro {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#services a {
+  margin-top: 2%;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 3%;
+  padding: 2% 3%;
+  color: black;
+  font-family: Calibri;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#intro ul {
+  list-style: none;
+}
+
+#intro ul li {
+  margin-top: 5%;
+  border: 3px solid black;
+  width: 60%;
+  height: 430px;
+}
+
+#intro ul li img {
+  margin-top: 2%;
+}
+
+#intro ul li h3 {
+  padding-top: 3%;
+  color: black;
+  font-family: Calibri;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#intro ul li p {
+  text-align: left;
+  padding-top: 1%;
+  width: 95%;
+  color: black;
+  font-family: Calibri;
+  font-size: 1.6rem;
+  font-weight: normal;
+  padding-bottom: 5%;
+}
+
+#intro ul li a {
+  margin-top: 5%;
+  text-decoration: none;
+  border: 1px solid #2e6fa7;
+  background-color: #2e6fa7;
+  border-radius: 4%;
+  padding: 2% 2%;
+  color: white;
+  font-family: Calibri;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#strength {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+#strength a {
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 3%;
+  padding: 2% 3%;
+  color: #333333;
+  font-family: Calibri;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#strength p {
+  padding-top: 5%;
+  color: #010909;
+  font-family: Calibri;
+  font-size: 1.9rem;
+  font-weight: normal;
+}
+
+#line {
+  margin-top: 2%;
+  width: 90%;
+  border: 2px dashed black;
+  margin-bottom: 2%;
+}
+
+#circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 45%;
+  margin: -27px auto 0px;
+  border: 2px solid black;
+}
+
+#work {
+  text-align: center;
+}
+
+#access,
+#usability {
+  width: 100%;
+  height: auto;
+  margin: 1% 0%;
+}
+
+#access h2,
+#usability h2 {
+  font-size: 1.8rem;
+  font-family: 'Calibri';
+  padding: 1% 0%;
+  font-weight: bold;
+}
+
+#access p,
+#usability p {
+  font-size: 1.2rem;
+  font-family: 'Calibri';
+  width: 90%;
+  padding-bottom: 1%;
+  font-weight: normal;
+  text-align: left;
+}
+
+#access a,
+#usability a {
+  font-size: 1rem;
+  font-family: 'Calibri';
+  text-decoration: none;
+  color: #f40909;
+  font-weight: bold;
+  padding-left: 30%;
+}
+
+#left ul {
+  list-style: none;
+}
+
+#one {
+  height: 200px;
+  background: url("../images/background/webg.png") no-repeat center;
+}
+
+#two {
+  height: 200px;
+  background: url("../images/background/resp.png") no-repeat center;
+}
+
+#three {
+  height: 200px;
+  background: url("../images/background/webd.png") no-repeat center;
+}
+
+#four {
+  height: 200px;
+  background: url("../images/background/wordpress.png") no-repeat center;
+}
+
+#one h2,
+#two h2,
+#three h2,
+#four h2 {
+  padding-top: 20%;
+  font-size: 1.2rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: black;
+}
+
+#one h3,
+#two h3,
+#three h3,
+#four h3 {
+  margin-top: 15%;
+  font-size: 1.2rem;
+  font-family: 'Calibri';
+  font-weight: bold;
+  color: black;
+}
+
+.review {
+  padding: 2% 3%;
+  text-decoration: none;
+  border: 1px solid #edeef0;
+  border-radius: 3%;
+  font-size: .6rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: black;
+}
+
+#bar {
+  margin-top: 2%;
+  border: 2px solid #6d95c6;
+}
+
+#right ul {
+  list-style: none;
+}
+
+#right ul li {
+  padding-top: 2%;
+  background: url("../images/background/person.png") no-repeat;
+}
+
+#right ul li p {
+  padding-left: 9%;
+  font-size: 1.1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: #336699;
+}
+
+#right ul li a {
+  padding-left: 40%;
+  text-decoration: none;
+  font-size: .9rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: #f00;
+}
+
+footer {
+  text-align: center;
+  background-color: #666666;
+}
+
+#f1 h2,
+#f2 h2,
+#f3 h2 {
+  padding-top: 2%;
+  font-size: 1.8rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: #fbefef;
+  padding-left: 6%;
+}
+
+#f1 p {
+  margin-top: 2%;
+  font-size: 1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: #fff;
+  width: 90%;
+}
+
+#f1 ul {
+  margin-top: 5%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+#f1 ul li h3 {
+  background: url("../images/background/msg.png") no-repeat;
+  font-size: 1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: white;
+}
+
+#f1 ul li h4 {
+  padding-top: 3%;
+  background: url("../images/background/phone.png") no-repeat;
+  font-size: 1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: white;
+}
+
+#line1 {
+  margin: 2% auto 0;
+  border: 1px dashed white;
+  width: 90%;
+}
+
+#f2 ul,
+#f3 ul {
+  list-style: none;
+  margin-top: 3%;
+}
+
+#f2 ul li,
+#f3 ul li {
+  font-size: 1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: black;
+}
+
+#line2 {
+  margin: 2% auto 0;
+  border: 1px dashed white;
+  width: 60%;
+}
+
+#p {
+  background-color: black;
+}
+
+#p p {
+  width: 90%;
+  font-size: 1rem;
+  font-family: 'Calibri';
+  font-weight: normal;
+  color: white;
+  padding: 2% 2%;
+}
+
+@media only screen and (min-width:481px) {
+  button {
+    display: none;
+  }
+  #menu {
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+  }
+  #menu ul {
+    width: 80%;
+    list-style-type: none;
+  }
+  #menu ul li {
+    padding: 2% 2%;
+    display: inline-block;
+    text-align: center;
+  }
+  #menu ul li a {
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: .9rem;
+    color: #f8efef;
+    font-weight: normal;
+  }
+  #banner {
+    height: 300px;
+    background: url("../images/background/banner_tab.png") no-repeat;
+  }
+  #photo img {
+    width: 40%;
+    padding-top: 3%;
+  }
+  #photo hr {
+    width: 40%;
+  }
+  #info a {
+    width: 50%;
+  }
+  #services a,
+  #strength a {
+    padding: 3% 4%;
+  }
+  #intro ul li {
+    width: 40%;
+    display: inline-block;
+    height: 400px;
+  }
+  #work {
+    width: 100%;
+  }
+  #access {
+    width: 50%;
+    float: left;
+    display: inline-block;
+  }
+  #usability {
+    width: 50%;
+    float: right;
+    display: inline-block;
+  }
+  #first,
+  #second {
+    width: 100%;
+  }
+  #one,
+  #three {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin-left: 7%;
+  }
+  #two,
+  #four {
+    width: 40%;
+    display: inline-block;
+    float: right;
+  }
+  #one h3,
+  #two h3,
+  #three h3,
+  #four h3 {
+    margin-top: 0;
+    position: relative;
+    left: -45%;
+  }
+  #one h2,
+  #two h2,
+  #three h2,
+  #four h2 {
+    margin-top: 10%;
+  }
+  .review {
+    padding: 2% 9%;
+    margin-left: 5%;
+  }
+  #bar {
+    width: 90%;
+  }
+  #right ul {
+    width: 95%;
+    list-style: none;
+  }
+  #right ul li p {
+    padding-left: 6%;
+  }
+  #right ul li a {
+    color: #990000;
+    margin-left: 30%;
+  }
+  #line1,
+  #line2 {
+    display: none;
+  }
+  #f1 {
+    width: 90%;
+    border-bottom: 1px dashed white;
+  }
+  #f1 ul li h3 {
+    margin-top: 1%;
+    padding: 2% 2%;
+    width: 60%;
+  }
+  #f1 ul li h4 {
+    width: 60%;
+    margin-bottom: 3%;
+  }
+  #f2,
+  #f3 {
+    width: 40%;
+    display: inline-block;
+  }
+  #p {
+    margin-top: 2%;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  main {
+    width: 80%;
+    text-align: center;
+  }
+  #menu ul li {
+    padding: 3% 2%;
+  }
+  #menu ul li a {
+    font-size: 1rem;
+  }
+  #banner {
+    height: 400px;
+    background: url("../images/background/banner_desk.png") no-repeat;
+  }
+  #photo {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    height: 500px;
+  }
+  #photo img {
+    width: 50%;
+    margin-top: 5%;
+  }
+  #photo h4 {
+    padding-top: 5%;
+  }
+  #photo hr {
+    width: 60%;
+  }
+  #info {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    height: 500px;
+  }
+  #info p {
+    font-size: 1.2rem;
+  }
+  #info hr {
+    margin-top: 2%;
+  }
+  #info a {
+    margin-top: 2%;
+  }
+  #grey {
+    display: inline-block;
+    margin-top: 2%;
+    width: 98%;
+    height: 265px;
+    background-color: #666666;
+    text-align: left;
+    padding-left: 2%;
+  }
+  #grey h3 {
+    font-family: Calibri;
+    font-size: 2.1rem;
+    color: #f3e9e9;
+    font-weight: normal;
+  }
+  #grey p {
+    padding-top: 2%;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    color: #f3e9e9;
+    font-weight: normal;
+  }
+  #grey h4 {
+    padding-top: 4%;
+    padding-left: 4%;
+    font-family: Calibri;
+    font-size: 1.5rem;
+    color: #226fe3;
+    font-weight: normal;
+  }
+  #intro {
+    width: 100%;
+  }
+  #services a,
+  #strength a {
+    padding: 3% 5%;
+  }
+  #intro ul li {
+    width: 22%;
+    display: inline-block;
+    height: 480px;
+  }
+  #work {
+    width: 100%;
+    height: 750px;
+  }
+  #left {
+    float: left;
+    width: 50%;
+    height: 600px;
+  }
+  #left1 {
+    height: 350px;
+  }
+  #left2 {
+    height: 250px;
+  }
+  #access,
+  #usability {
+    width: 50%;
+    float: left;
+  }
+  #one,
+  #three {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin-left: 7%;
+  }
+  #two,
+  #four {
+    width: 40%;
+    display: inline-block;
+    float: right;
+  }
+  #one h3,
+  #two h3,
+  #three h3,
+  #four h3 {
+    margin-top: 45%;
+    margin-left: 72%;
+  }
+  #one h2,
+  #two h2,
+  #three h2,
+  #four h2 {
+    display: none;
+  }
+  #right {
+    float: right;
+    width: 50%;
+    margin-top: 2%;
+  }
+  .review {
+    margin-left: 3%;
+    padding: 2% 4%;
+  }
+  #bar {
+    margin-right: 20%;
+    width: 50%;
+  }
+  #right {
+    border-left: 1px dashed #336699;
+    height: auto;
+    width: 40%;
+  }
+  #right ul {
+    margin-top: 3%;
+  }
+  #right ul li p {
+    line-height: 30px;
+  }
+  #footer1 {
+    height: 250px;
+  }
+  #f1 {
+    margin-top: 1%;
+    display: inline-block;
+    width: 30%;
+    float: left;
+    border-bottom: none;
+  }
+  #f1 h2,
+  #f2 h2,
+  #f3 h2,
+  #f1 p {
+    color: black;
+  }
+  #f1 ul li h3 {
+    color: black;
+    margin-left: 0%;
+    padding-left: 20%;
+    text-align: left;
+  }
+  #f1 ul li h4 {
+    color: black;
+    margin-left: 0;
+    padding-left: 20%;
+    text-align: left;
+    height: 30px;
+  }
+  #f2 {
+    margin-top: 1%;
+    display: inline-block;
+    width: 30%;
+  }
+  #f3 {
+    margin-top: 1%;
+    display: inline-block;
+    width: 30%;
+    float: right;
+  }
+  #p p {
+    width: 60%;
+    text-align: center;
+  }
+}
